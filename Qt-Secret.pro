@@ -10,8 +10,7 @@ CONFIG += ordered
 
 SUBDIRS += \
            minigmp \
-           src \
-           Qt-Secret-GUI
+           src
 
 contains(DEFINES, WITHOUT_GUI): {
     SUBDIRS -= Qt-Secret-GUI
